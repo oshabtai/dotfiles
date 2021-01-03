@@ -118,11 +118,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
-PATH="/home/yonatanp/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/yonatanp/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/yonatanp/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/yonatanp/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/yonatanp/perl5"; export PERL_MM_OPT;
+PATH="/home/oshabtai/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/home/oshabtai/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/oshabtai/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/oshabtai/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/oshabtai/perl5"; export PERL_MM_OPT;
 
 # if [ "$COLORTERM" == "xfce4-terminal" ] ; then
     export TERM=screen-256color

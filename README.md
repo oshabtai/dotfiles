@@ -1,3 +1,3 @@
 # dotfiles
-yonatanp's dotfiles for ubuntu.
+oshabtai's dotfiles for ubuntu.
 

@@ -7,13 +7,13 @@ alias gaa='git add --all'
 alias gittok='xclip -sel clip < ~/.ssh/gittok'
 
 # Onyx 
-if [ -d '/mtrsysgwork/yonatanp/onyx/scripts' ]
+if [ -d '/mtrsysgwork/oshabtai/onyx/scripts' ]
 then
-    alias sg='source /mtrsysgwork/yonatanp/onyx/scripts/genenv.sh'
+    alias sg='source /mtrsysgwork/oshabtai/onyx/scripts/genenv.sh'
 else
-    if [ -d '/auto/mtrsysgwork/yonatanp/onyx/scripts' ]
+    if [ -d '/auto/mtrsysgwork/oshabtai/onyx/scripts' ]
     then
-        alias sg='source /auto/mtrsysgwork/yonatanp/onyx/scripts/genenv.sh'
+        alias sg='source /auto/mtrsysgwork/oshabtai/onyx/scripts/genenv.sh'
     fi
 fi
 
@@ -32,13 +32,13 @@ func_tmux_attach() {
     tmux attach -t -d $1
 }
 func_mtrs() {
-    if [ -d '/mtrsysgwork/yonatanp' ]
+    if [ -d '/mtrsysgwork/oshabtai' ]
     then
-        cd '/mtrsysgwork/yonatanp'
+        cd '/mtrsysgwork/oshabtai'
     else
-        if [ -d '/auto/mtrsysgwork/yonatanp' ]
+        if [ -d '/auto/mtrsysgwork/oshabtai' ]
         then
-            cd '/auto/mtrsysgwork/yonatanp'
+            cd '/auto/mtrsysgwork/oshabtai'
         fi
     fi
 }
@@ -61,7 +61,7 @@ alias tmat=func_tmux_attach
 
 alias mtrs=func_mtrs
 
-alias adb='/builds/yonatanp/adabe/adabe/adabe'
-alias adb_flex='adb /mtrsysgwork/yonatanp/adabe/flex_program.adb'
-alias adb_phx='adb /mtrsysgwork/yonatanp/adabe/phoenix.adb'
-alias adb_cond='adb /mtrsysgwork/yonatanp/adabe/condor.adb'
+alias adb='/builds/oshabtai/adabe/adabe/adabe'
+alias adb_flex='adb /mtrsysgwork/oshabtai/adabe/flex_program.adb'
+alias adb_phx='adb /mtrsysgwork/oshabtai/adabe/phoenix.adb'
+alias adb_cond='adb /mtrsysgwork/oshabtai/adabe/condor.adb'
